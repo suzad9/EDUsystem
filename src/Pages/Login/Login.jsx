@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
 const Login = () => {
@@ -31,11 +30,11 @@ const Login = () => {
               <h1 className="text-5xl font-bold text-center">Login now!</h1>
               <div className="form-control">
                 <label className="label">
-                  <span className="label-text">Email</span>
+                  <span className="label-text">ID</span>
                 </label>
                 <input
                   type="email"
-                  placeholder="email"
+                  placeholder="Enter Your ID"
                   name="email"
                   className="input input-bordered"
                   required
@@ -54,7 +53,7 @@ const Login = () => {
                 />
               </div>
               <div className="form-control mt-6">
-                <button className="btn btn-primary text-white text-xl">
+                <button className="btn btn-[blue] text-white text-xl">
                   Login
                 </button>
               </div>
